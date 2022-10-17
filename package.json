@@ -15,7 +15,7 @@
   },
   "scripts": {
     "seedDb": "node scripts/seed.js",
-    "start": "npm run build && node build/index.js",
+    "start": "node scripts/start-dev.js",
 
     "build": "node scripts/build.js",
     "format": "find . -name \"*.js\" | grep -v node_modules | grep -v build | xargs prettier --write",
