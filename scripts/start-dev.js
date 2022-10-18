@@ -11,7 +11,7 @@ const {
 const jobs = [
   {
     name: 'api',
-    command: `cd ${API_DIR} && ${runner} run start:dev`,
+    command: `cd ${API_DIR} && ${runner} run start`,
     prefixColor: 'green',
   },
 ]
